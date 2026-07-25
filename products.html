@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>ShopEase | Products</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- ===========================
+     HEADER
+=========================== -->
+
+<header>
+
+    <nav class="navbar">
+
+        <h1 class="logo">ShopEase</h1>
+
+        <ul>
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="products.html" class="active">
+                Products
+            </a></li>
+
+            <li><a href="cart.html">
+                Cart
+            </a></li>
+
+            <li><a href="about.html">
+                About
+            </a></li>
+
+            <li><a href="contact.html">
+                Contact
+            </a></li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+<!-- ===========================
+     SEARCH
+=========================== -->
+
+<section class="search-section">
+
+    <h2>Our Products</h2>
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search products...">
+
+</section>
+
+<!-- ===========================
+     CATEGORY FILTER
+=========================== -->
+
+<section class="filter-section">
+
+    <button class="filter-btn active"
+            data-category="all">
+        All
+    </button>
+
+    <button class="filter-btn"
+            data-category="Laptop">
+        Laptops
+    </button>
+
+    <button class="filter-btn"
+            data-category="Mobile">
+        Mobiles
+    </button>
+
+    <button class="filter-btn"
+            data-category="Watch">
+        Watches
+    </button>
+
+    <button class="filter-btn"
+            data-category="Headphone">
+        Headphones
+    </button>
+
+</section>
+
+<!-- ===========================
+     PRODUCTS
+=========================== -->
+
+<section>
+
+    <div
+        id="productContainer"
+        class="product-grid">
+
+        <!-- Products loaded from JavaScript -->
+
+    </div>
+
+</section>
+
+<!-- ===========================
+     FOOTER
+=========================== -->
+
+<footer>
+
+    <p>
+
+        © 2026 ShopEase.
+        All Rights Reserved.
+
+    </p>
+
+</footer>
+
+<script src="products.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
